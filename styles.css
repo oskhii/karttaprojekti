@@ -1,0 +1,108 @@
+/*index.html*/
+header, footer {
+  background-color: lightgray;
+  padding: 10px;
+  min-height: 50px;
+}
+#map { 
+  position: relative;
+  height: 600px;
+  background-color: #90DAEE;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Taulukko*/
+#data {
+  display: none;
+}
+.table {
+  table-layout: fixed;
+}
+.borderless td, .borderless th {
+  border: none;
+}
+.center {
+  text-align: center;
+}
+.btn-outline-secondary {
+  margin-left: 10px;
+}
+
+/*Leaflet DivIcon markerit*/
+.kylat-icon {
+  height: 25px;
+  width: 25px;
+  background:#ff0000;
+  border:5px solid black;
+  border-radius:50%;
+}
+.kylat-icon:hover {
+  border:5px solid gold;
+  transition: 1s;
+}
+.ahaapaikat-icon {
+  height: 25px;
+  width: 25px;
+  background:#0000ff;
+  border:5px solid black;
+  border-radius:50%;
+}
+.ahaapaikat-icon:hover {
+  border:5px solid gold;
+  transition: 1s;
+}
+.aineistot-icon {
+  height: 25px;
+  width: 25px;
+  background:#00ff00;
+  border:5px solid black;
+  border-radius:50%;
+}
+.aineistot-icon:hover {
+  border:5px solid gold;
+  transition: 1s;
+}
+
+/*Leaflet Popupit*/
+.leaflet-popup-content th, .leaflet-popup-content td {
+  padding: 5px;
+}
+.leaflet-popup-content button {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Leaflet WFS-Aluedata*/
+.leaflet-interactive {
+  fill-opacity: 0;
+  stroke: gray;
+  stroke-width: 1;
+  stroke-opacity: 1;
+}
+.leaflet-interactive:hover {
+  fill-opacity: 0.2;
+}
+
+/*Leaflet layercontrol & timeline*/
+.leaflet-control-layers-group-name {
+  font-weight:700;
+  margin-bottom:.2em;
+  margin-left:3px
+}
+.leaflet-control-layers-group {
+  margin-bottom:.5em
+}
+.leaflet-control-layers-scrollbar {
+  overflow-y:scroll;
+  padding-right:10px
+}
+.leaflet-bottom.leaflet-left {
+  width: 100%;
+}
+.leaflet-control-container .leaflet-timeline-controls {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+}
